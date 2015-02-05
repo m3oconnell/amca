@@ -1,4 +1,8 @@
 Ruby2::Application.routes.draw do
+
+
+    get 'home' => 'application#home'
+    get 'page2' => "application#page2"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
