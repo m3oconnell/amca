@@ -4,4 +4,8 @@ class ApplicationController < ActionController::Base
   end
   def page2
   end
+  def carousel
+  end
+  def fullcover
+  end
 end
