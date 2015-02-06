@@ -1,8 +1,11 @@
 Ruby2::Application.routes.draw do
 
-
+    root :to => 'application#home'
     get 'home' => 'application#home'
-    get 'page2' => "application#page2"
+    get 'index' => 'application#home'
+    get 'page2' => 'application#page2'
+    get 'carousel' => 'application#carousel'
+    get 'fullcover' => 'application#fullcover' 
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
